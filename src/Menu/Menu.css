@@ -1,0 +1,5 @@
+ul {
+	background-color: aquamarine;
+	list-style: none;
+	display: flex;
+}

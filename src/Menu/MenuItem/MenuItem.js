@@ -1,3 +1,5 @@
+import "./MenuItem.css";
+
 export default function MenuItem(props) {
 	return (
 		<li>

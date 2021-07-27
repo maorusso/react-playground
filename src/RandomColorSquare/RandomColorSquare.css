@@ -1,0 +1,13 @@
+.box {
+	width: 150px;
+	height: 150px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	transition: all 0.3s;
+	text-shadow: 0 0 10px #130303, 2px 2px 0px rgba(0, 0, 0, 0);
+}
+
+.box:hover {
+	cursor: pointer;
+}

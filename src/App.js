@@ -4,16 +4,22 @@ import Menu from "./Menu/Menu.js";
 import MenuItem from "./Menu/MenuItem/MenuItem.js";
 import Counter from "./Counter/Counter.js";
 import StudentPicker from "./StudentPicker.js";
+import RandomColorSquare from "./RandomColorSquare/RandomColorSquare";
 
 function App() {
-	function clickHandler() {
-		console.log("click");
-	}
 	return (
 		<div>
+			<Menu>
+				<MenuItem label="homepage" link="/" />
+				<MenuItem label="bio" link="./bio" />
+				<MenuItem label="contact" link="./contact" />
+			</Menu>
+
+			<RandomColorSquare />
+
 			{/* <button onClick={clickHandler}>click me</button> */}
 			{/* <Counter /> */}
-			<StudentPicker />
+			{/* <StudentPicker /> */}
 			{/* <Menu>
 				<MenuItem label="homepage" link="/" />
 				<MenuItem label="bio" />
